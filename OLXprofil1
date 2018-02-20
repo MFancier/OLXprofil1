@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.skrpan {
+	display: grid;
+	font-family: 'Roboto', sans-serif;
+	background-color: #D9CADD;
+	max-width: 928px;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.kadzvati {
+   text-align: center;
+   font-weight: normal;
+   font-size: 18px;
+}
+
+.logobox {
+   margin: 0 auto;
+   max-width: 251px;
+   height: auto;
+}
+
+.tekstsadrzaj {
+  text-align: center;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.kontaktinfo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.kontaktinfo a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.kontaktinfo a:active {
+  text-decoration: none;
+}
+
+.skrpannapomena {
+  font-size: 20px;
+}
+
+.opomenadva {
+  text-align: center;
+}
+
+@media (device-width: 640px) {
+  .skrpan {
+    max-width: 320px;
+    padding: 0;
+  }
+
+  .kontaktinfo {
+    padding-top: 0;
+  }
+  .logobox {
+    max-width: 180px;
+    height: auto;
+  }
+
+}
